@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(75deg , #423900, #A89A43);
+    color: white;
+}
+
+header, footer{
+background: linear-gradient(75deg , #A89A43 , #423900);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: "PT Sans", sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0.5, 0.8);
+}
+
+.form-control,
+.card{
+    background-color: rgba(255, 255, 255, 0.25);
+    border: none;
+}
+
+.card{
+    color: white;
+}
+
+.form-control::placeholder{
+    color: #423E2C;
+    text-shadow: none;
+}
+
+.saldo{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+header{
+    height: 23vh;
+    padding: 1px;
+}
+
+main{
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    height: 8vh;
+}
+
+.btn{
+    background-color: #FFE054;
+    color: #423E2C;
+    border-color: #423E2C;;
+    text-shadow: none;
+    width: 50%;
+
+}
+.btn:hover{
+    background-color: #A8A07B;
+    border:  #FFE054;
+}
+
+ .btn-danger, .btn-succes{
+    width: 10%;
+}
+.btn-sucess{
+    width: 100%;
+}
+
+
+@media (max-width: 767px){
+    #menu{
+        height: 100%;
+        padding: 50px 0;
+    }
+}
